@@ -1,0 +1,2015 @@
+GroupLevel_0,GroupLevel_1,GroupLevel_2,Dataset,Size,Shape,DataType
+AwakeEventData, , , , , , 
+ ,AIRTR01, , , , , 
+ , ,Acq, , , , 
+ , , ,numericPosition,1,"(1,)",float32
+ ,AIRTR02, , , , , 
+ , ,Acq, , , , 
+ , , ,numericPosition,1,"(1,)",float32
+ ,AWAKEInjPhaseShifter, , , , , 
+ , ,PhaseReadback, , , , 
+ , , ,phaseACurrentValue,1,"(1,)",float32
+ ,BLMITT41, , , , , 
+ , ,Acquisition, , , , 
+ , , ,acqDesc,1,"(1,)",|S1
+ , , ,acqMsg,1,"(1,)",|S1
+ , , ,acqState,1,"(1,)",int32
+ , , ,acqTime,1,"(1,)",int32
+ , , ,alarmStatus,40,"(40,)",int16
+ , , ,blrSignalStatus,40,"(40,)",int16
+ , , ,calLosses,40,"(40,)",float32
+ , , ,calLosses_unit,1,"(1,)",|S4
+ , , ,calLosses_unitExponent,1,"(1,)",int32
+ , , ,calThresholds,40,"(40,)",float32
+ , , ,channelNames,15,"(15,)",|S15
+ , , ,deviceName,1,"(1,)",|S5
+ , , ,enableExtFlagBIC,2,"(2,)",int32
+ , , ,measStamp,1,"(1,)",int32
+ , , ,nbOfChannels,1,"(1,)",int32
+ , , ,nbOfMeas,1,"(1,)",int32
+ , , ,normLosses,40,"(40,)",float32
+ , , ,observables,1,"(1,)",int32
+ , , ,rawLosses,40,"(40,)",int16
+ , , ,superCycleNb,1,"(1,)",int32
+ , , ,totalGains,5,"(5,)",int32
+ ,BOVWA.01TCC4.AWAKECAM01, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,2048,"(2048,)",float64
+ , , ,imageRawData,2211840,"(1080, 2048)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,1080,"(1080,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.01TCV4.CAM8, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,2592,"(2592,)",float64
+ , , ,imageRawData,5308416,"(2048, 2592)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,2048,"(2048,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.02TCC4.AWAKECAM02, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,1280,"(1280,)",float64
+ , , ,imageRawData,1228800,"(960, 1280)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,960,"(960,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.02TSG40.CAM7, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,1920,"(1920,)",float64
+ , , ,imageRawData,2304000,"(1200, 1920)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,1200,"(1200,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.03TT41.CAM3, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,1920,"(1920,)",float64
+ , , ,imageRawData,2304000,"(1200, 1920)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,1200,"(1200,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.04TCC4.AWAKECAM04, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,1600,"(1600,)",float64
+ , , ,imageRawData,1920000,"(1200, 1600)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,1200,"(1200,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.04TT41.CAM4, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,1920,"(1920,)",float64
+ , , ,imageRawData,2304000,"(1200, 1920)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,1200,"(1200,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.05TT41.CAM5, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,1920,"(1920,)",float64
+ , , ,imageRawData,2304000,"(1200, 1920)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,1200,"(1200,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.06TCC4.AWAKECAM06, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,1600,"(1600,)",float64
+ , , ,imageRawData,1920000,"(1200, 1600)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,1200,"(1200,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.07TCC4.AWAKECAM07, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,1600,"(1600,)",float64
+ , , ,imageRawData,1920000,"(1200, 1600)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,1200,"(1200,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BOVWA.11TCC4.AWAKECAM11, , , , , 
+ , ,ExtractionImage, , , , 
+ , , ,beamIntensity,1,"(1,)",float64
+ , , ,beamSize,1,"(1,)",float64
+ , , ,cogX,1,"(1,)",float64
+ , , ,cogY,1,"(1,)",float64
+ , , ,height,1,"(1,)",int32
+ , , ,horProjAmp,1,"(1,)",float64
+ , , ,horProjAvg,1,"(1,)",float64
+ , , ,horProjSigma,1,"(1,)",float64
+ , , ,horProjection,1280,"(1280,)",float64
+ , , ,imageRawData,1228800,"(960, 1280)",int16
+ , , ,imageTimeStamp,1,"(1,)",int64
+ , , ,intensityAvg,1,"(1,)",float64
+ , , ,intensityHistogram,1000,"(1000,)",int32
+ , , ,intensityRMS,1,"(1,)",float64
+ , , ,intensitySigma,1,"(1,)",float64
+ , , ,pixelSize,1,"(1,)",float64
+ , , ,verProjAmp,1,"(1,)",float64
+ , , ,verProjAvg,1,"(1,)",float64
+ , , ,verProjSigma,1,"(1,)",float64
+ , , ,verProjection,960,"(960,)",float64
+ , , ,width,1,"(1,)",int32
+ , ,PublishedSettings, , , , 
+ , , ,delayTime,1,"(1,)",float64
+ , , ,exposureTime,1,"(1,)",float64
+ , , ,gain,1,"(1,)",int64
+ , , ,triggerMode,1,"(1,)",|S2
+ ,BPM.AWAKE.TT41, , , , , 
+ , ,Acquisition, , , , 
+ , , ,bpmNames,32,"(32,)",|S15
+ , , ,dynDestination,1,"(1,)",|S5
+ , , ,horPosOk,0,"(0,)",Custom Datatype
+ , , ,horPosition,32,"(32,)",float32
+ , , ,nbOfBpms,1,"(1,)",int16
+ , , ,verPosOk,0,"(0,)",Custom Datatype
+ , , ,verPosition,32,"(32,)",float32
+ ,BTV.TT41.412354_FILTER, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,BTV.TT41.412426_FWHEEL, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,BTV.TT41.412426_MASK_H, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,BTV.TT41.412426_MASK_V, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,BTV.TT41.412442_FWHEEL, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,BTV.TT41.412442_MASK_H, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,BTV.TT41.412442_MASK_V, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,EMETER02, , , , , 
+ , ,Acq, , , , 
+ , , ,outOfRange,1,(),bool
+ , , ,value,1,"(1,)",float32
+ , , ,value_units,1,"(1,)",|S1
+ ,EMETER03, , , , , 
+ , ,Acq, , , , 
+ , , ,outOfRange,1,(),bool
+ , , ,value,1,"(1,)",float32
+ , , ,value_units,1,"(1,)",|S1
+ ,EMETER04, , , , , 
+ , ,Acq, , , , 
+ , , ,outOfRange,1,(),bool
+ , , ,value,1,"(1,)",float32
+ , , ,value_units,1,"(1,)",|S1
+ ,EMETER05, , , , , 
+ , ,Acq, , , , 
+ , , ,outOfRange,1,(),bool
+ , , ,value,1,"(1,)",float32
+ , , ,value_units,1,"(1,)",|S1
+ ,FWHEEL01, , , , , 
+ , ,Acq, , , , 
+ , , ,backWheelPositionDescription,1,"(1,)",|S6
+ , , ,frontWheelPositionDescription,1,"(1,)",|S6
+ , , ,status,1,"(1,)",int32
+ ,GD_BPM.AWAKE.TRIUMF, , , , , 
+ , ,AcquisitionSPS, , , , 
+ , , ,bpmNames,14,"(14,)",|S18
+ , , ,horPos,14,"(14,)",float32
+ , , ,nbOfBpms,1,"(1,)",int32
+ , , ,posOK,1,"(1,)",Custom Datatype
+ , , ,sigma,14,"(14,)",int32
+ , , ,verPos,14,"(14,)",float32
+ , ,GlobalAcquisition, , , , 
+ , , ,bpmNames,14,"(14,)",|S18
+ , , ,horPos,14,"(14,)",float32
+ , , ,horPosSelected,14,"(14,)",float32
+ , , ,nbOfBpms,1,"(1,)",int32
+ , , ,posOK,1,"(1,)",Custom Datatype
+ , , ,posOkSelected,0,"(0,)",Custom Datatype
+ , , ,sigma,14,"(14,)",float32
+ , , ,sigmaSelected,14,"(14,)",int32
+ , , ,verPos,14,"(14,)",float32
+ , , ,verPosSelected,14,"(14,)",float32
+ ,LSSE2, , , , , 
+ , ,Acq, , , , 
+ , , ,position,1,"(1,)",int32
+ ,LSSP2, , , , , 
+ , ,Acq, , , , 
+ , , ,position,1,"(1,)",int32
+ ,MPP-TSG41-MIRROR1-H, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,MPP-TSG41-MIRROR1-V, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,MPP-TSG41-WHEEL1-BI, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,MPP-VACTRANS-CTR, , , , , 
+ , ,Acquisition, , , , 
+ , , ,mmPosition,1,"(1,)",float64
+ , , ,position,1,"(1,)",int32
+ , , ,stepperBusy,1,(),bool
+ , , ,switchIn,1,(),bool
+ , , ,switchOut,1,(),bool
+ ,MPP-VACTRANS-OTR, , , , , 
+ , ,Acquisition, , , , 
+ , , ,mmPosition,1,"(1,)",float64
+ , , ,position,1,"(1,)",int32
+ , , ,stepperBusy,1,(),bool
+ , , ,switchIn,1,(),bool
+ , , ,switchOut,1,(),bool
+ ,MPPAWAKE-STANDA-08.AXIS01, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-08.AXIS02, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-08.AXIS03, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-08.AXIS04, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-08.AXIS09, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-08.AXIS10, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-08.AXIS11, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-08.AXIS12, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS01, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS02, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS03, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS04, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS05, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS06, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS07, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS08, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS09, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS10, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS11, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,MPPAWAKE-STANDA-12.AXIS12, , , , , 
+ , ,Movement, , , , 
+ , , ,leftLimitSwitchReached,1,(),|S128
+ , , ,position,1,(),|S128
+ , , ,rightLimitSwitchReached,1,(),|S128
+ ,PMOTOR01, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,PMOTOR02, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,PMOTOR03, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,PMOTOR04, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,PMOTOR05, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,PMOTOR06, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,PMOTOR13, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,PMOTOR14, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,PMOTOR15, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,PMOTOR16, , , , , 
+ , ,Acquisition, , , , 
+ , , ,position,1,"(1,)",int32
+ ,Plunger.412401, , , , , 
+ , ,StartCounterSt, , , , 
+ , , ,value,1,"(1,)",int32
+ , ,State, , , , 
+ , , ,value,1,"(1,)",int16
+ ,Plunger.412422, , , , , 
+ , ,StartCounterSt, , , , 
+ , , ,value,1,"(1,)",int32
+ , ,State, , , , 
+ , , ,value,1,"(1,)",int16
+ ,RADMON.AWAKE-1, , , , , 
+ , ,Acquisition, , , , 
+ , , ,SEUType1,1,"(1,)",float64
+ , , ,SEUType2,1,"(1,)",float64
+ , , ,cumBank1HadronFluence,1,"(1,)",float64
+ , , ,cumBank1MBUCounts,1,"(1,)",int32
+ , , ,cumBank1SEUCounts,1,"(1,)",int32
+ , , ,cumBank2HadronFluence,1,"(1,)",float64
+ , , ,cumBank2MBUCounts,1,"(1,)",int32
+ , , ,cumBank2SEUCounts,1,"(1,)",int32
+ , , ,cumNeutronFluence,1,"(1,)",float64
+ , , ,cumTID1,1,"(1,)",float64
+ , , ,cumTID2,1,"(1,)",float64
+ , , ,lPar1,1,"(1,)",float64
+ , , ,lPar2,1,"(1,)",float64
+ , , ,lPar3,1,"(1,)",float64
+ , , ,lParType,1,"(1,)",float64
+ , , ,pinDiodeType,1,"(1,)",int32
+ , , ,radfet1Type,1,"(1,)",int32
+ , , ,radfet2Type,1,"(1,)",int32
+ , , ,radmonStatus,1,"(1,)",int32
+ , , ,revisionNumber,1,"(1,)",int32
+ , , ,revisionType,1,"(1,)",int32
+ ,RADMON.AWAKE-2, , , , , 
+ , ,Acquisition, , , , 
+ , , ,SEUType1,1,"(1,)",float64
+ , , ,SEUType2,1,"(1,)",float64
+ , , ,cumBank1HadronFluence,1,"(1,)",float64
+ , , ,cumBank1MBUCounts,1,"(1,)",int32
+ , , ,cumBank1SEUCounts,1,"(1,)",int32
+ , , ,cumBank2HadronFluence,1,"(1,)",float64
+ , , ,cumBank2MBUCounts,1,"(1,)",int32
+ , , ,cumBank2SEUCounts,1,"(1,)",int32
+ , , ,cumNeutronFluence,1,"(1,)",float64
+ , , ,cumTID1,1,"(1,)",float64
+ , , ,cumTID2,1,"(1,)",float64
+ , , ,lPar1,1,"(1,)",float64
+ , , ,lPar2,1,"(1,)",float64
+ , , ,lPar3,1,"(1,)",float64
+ , , ,lParType,1,"(1,)",float64
+ , , ,pinDiodeType,1,"(1,)",int32
+ , , ,radfet1Type,1,"(1,)",int32
+ , , ,radfet2Type,1,"(1,)",int32
+ , , ,radmonStatus,1,"(1,)",int32
+ , , ,revisionNumber,1,"(1,)",int32
+ , , ,revisionType,1,"(1,)",int32
+ ,RADMON.AWAKE-3, , , , , 
+ , ,Acquisition, , , , 
+ , , ,SEUType1,1,"(1,)",float64
+ , , ,SEUType2,1,"(1,)",float64
+ , , ,cumBank1HadronFluence,1,"(1,)",float64
+ , , ,cumBank1MBUCounts,1,"(1,)",int32
+ , , ,cumBank1SEUCounts,1,"(1,)",int32
+ , , ,cumBank2HadronFluence,1,"(1,)",float64
+ , , ,cumBank2MBUCounts,1,"(1,)",int32
+ , , ,cumBank2SEUCounts,1,"(1,)",int32
+ , , ,cumNeutronFluence,1,"(1,)",float64
+ , , ,cumTID1,1,"(1,)",float64
+ , , ,cumTID2,1,"(1,)",float64
+ , , ,lPar1,1,"(1,)",float64
+ , , ,lPar2,1,"(1,)",float64
+ , , ,lPar3,1,"(1,)",float64
+ , , ,lParType,1,"(1,)",float64
+ , , ,pinDiodeType,1,"(1,)",int32
+ , , ,radfet1Type,1,"(1,)",int32
+ , , ,radfet2Type,1,"(1,)",int32
+ , , ,radmonStatus,1,"(1,)",int32
+ , , ,revisionNumber,1,"(1,)",int32
+ , , ,revisionType,1,"(1,)",int32
+ ,RPADA.BB4.RQNI.412432, , , , , 
+ , , ,MEAS.I,1,"(1,)",float32
+ , , ,REF.I,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.412344, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.412345, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.412347, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.412349, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.412353, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.430011, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.430029, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.430040, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.430104, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.430130, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.430204, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBH.430309, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.412344, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.412345, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.412347, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.412349, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.412353, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.430011, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.430029, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.430040, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.430104, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.430130, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.430204, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RCIBV.430309, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQID.412344, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQID.412347, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQID.430031, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQID.430037, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQID.430109S, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQIF.412346, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQIF.430034, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQIF.430118, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQIF.430205, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPCAH.TSG4.RQIF.430311, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPPEF.BB4.RBIH.412435, , , , , 
+ , , ,MEAS.I,1,"(1,)",float32
+ , , ,REF.I,1,"(1,)",float32
+ ,RPSKN.TSG4.SNH.430000, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,RPSKN.TSG4.SNJ.430001, , , , , 
+ , ,Acquisition, , , , 
+ , , ,currentAverage,1,"(1,)",float32
+ ,SPS.BCTDC.41435, , , , , 
+ , ,Acquisition, , , , 
+ , , ,acqDesc,1,"(1,)",|S1
+ , , ,acqMsg,1,"(1,)",|S32
+ , , ,acqState,1,"(1,)",int32
+ , , ,acqTime,1,"(1,)",|S25
+ , , ,calMarkerData,1120,"(1120,)",int16
+ , , ,cycleTime,1,"(1,)",|S1
+ , , ,dumpCycleTime,1,"(1,)",int32
+ , , ,dumpInt,1,"(1,)",float32
+ , , ,inCheckStatusData,1120,"(1120,)",int16
+ , , ,lowIbStatusData,1120,"(1120,)",int16
+ , , ,measStamp,940,"(940,)",float32
+ , , ,measStamp_unit,1,"(1,)",int32
+ , , ,measStamp_unitExponent,1,"(1,)",float32
+ , , ,nbOfAdcData,1,"(1,)",int32
+ , , ,nbOfMeas,1,"(1,)",int32
+ , , ,range1Data,1120,"(1120,)",int16
+ , , ,range2Data,1120,"(1120,)",int16
+ , , ,range3Data,1120,"(1120,)",int16
+ , , ,range4Data,1120,"(1120,)",int16
+ , , ,samplingTime,1,"(1,)",int32
+ , , ,sbfCycleTime,1,"(1,)",int32
+ , , ,sbfIntensity,1,"(1,)",float32
+ , , ,selectedRange,1,"(1,)",int32
+ , , ,slowCycleTime,1,"(1,)",int32
+ , , ,slowExtInt,1,"(1,)",float32
+ , , ,superCycleNb,1,"(1,)",int32
+ , , ,totalIntensity,940,"(940,)",float32
+ , , ,totalIntensity4Ranges,4480,"(4, 1120)",float32
+ , , ,totalIntensity_unit,1,"(1,)",int32
+ , , ,totalIntensity_unitExponent,1,"(1,)",float32
+ , , ,vmodStatus,1,"(1,)",int32
+ ,SPS.BCTDC.51895, , , , , 
+ , ,Acquisition, , , , 
+ , , ,acqDesc,1,"(1,)",|S1
+ , , ,acqMsg,1,"(1,)",|S32
+ , , ,acqState,1,"(1,)",int32
+ , , ,acqTime,1,"(1,)",|S25
+ , , ,calMarkerData,1120,"(1120,)",int16
+ , , ,cycleTime,1,"(1,)",|S1
+ , , ,dumpCycleTime,1,"(1,)",int32
+ , , ,dumpInt,1,"(1,)",float32
+ , , ,inCheckStatusData,1120,"(1120,)",int16
+ , , ,lowIbStatusData,1120,"(1120,)",int16
+ , , ,measStamp,940,"(940,)",float32
+ , , ,measStamp_unit,1,"(1,)",int32
+ , , ,measStamp_unitExponent,1,"(1,)",float32
+ , , ,monitorArray1,1120,"(1120,)",int16
+ , , ,monitorArray2,1120,"(1120,)",int16
+ , , ,nbOfAdcData,1,"(1,)",int32
+ , , ,nbOfMeas,1,"(1,)",int32
+ , , ,range1Data,1120,"(1120,)",int16
+ , , ,range2Data,1120,"(1120,)",int16
+ , , ,range3Data,1120,"(1120,)",int16
+ , , ,range4Data,1120,"(1120,)",int16
+ , , ,samplingTime,1,"(1,)",int32
+ , , ,sbfCycleTime,1,"(1,)",int32
+ , , ,sbfIntensity,1,"(1,)",float32
+ , , ,selectedRange,1,"(1,)",int32
+ , , ,slowCycleTime,1,"(1,)",int32
+ , , ,slowExtInt,1,"(1,)",float32
+ , , ,superCycleNb,1,"(1,)",int32
+ , , ,totalIntensity,940,"(940,)",float32
+ , , ,totalIntensity4Ranges,4480,"(4, 1120)",float32
+ , , ,totalIntensity_unit,1,"(1,)",int32
+ , , ,totalIntensity_unitExponent,1,"(1,)",float32
+ , , ,vmodStatus,1,"(1,)",int32
+ ,SPSBQMSPSv1, , , , , 
+ , ,Acquisition, , , , 
+ , , ,beamOk,1,(),bool
+ , , ,bqmOutputEnable,1,(),bool
+ , , ,bunchIntensities,288,"(288,)",float32
+ , , ,bunchIntensityMax,1,"(1,)",float32
+ , , ,bunchIntensityMaxThr,1,"(1,)",float32
+ , , ,bunchIntensityMean,1,"(1,)",float32
+ , , ,bunchIntensityMin,1,"(1,)",float32
+ , , ,bunchIntensityMinThr,1,"(1,)",float32
+ , , ,bunchIntensityModIndex,1,"(1,)",float32
+ , , ,bunchIntensityModIndexOk,1,(),bool
+ , , ,bunchIntensityModIndexThr,1,"(1,)",float32
+ , , ,bunchIntensityOk,1,(),bool
+ , , ,bunchIntensityStd,1,"(1,)",float32
+ , , ,bunchLengthMax,1,"(1,)",float32
+ , , ,bunchLengthMaxThr,1,"(1,)",float32
+ , , ,bunchLengthMean,1,"(1,)",float32
+ , , ,bunchLengthMin,1,"(1,)",float32
+ , , ,bunchLengthMinThr,1,"(1,)",float32
+ , , ,bunchLengthOk,1,(),bool
+ , , ,bunchLengthStd,1,"(1,)",float32
+ , , ,bunchLengthStdOk,1,(),bool
+ , , ,bunchLengthStdThr,1,"(1,)",float32
+ , , ,bunchLengths,288,"(288,)",float32
+ , , ,bunchPeakMax,1,"(1,)",float32
+ , , ,bunchPeakMaxThr,1,"(1,)",float32
+ , , ,bunchPeakMean,1,"(1,)",float32
+ , , ,bunchPeakMin,1,"(1,)",float32
+ , , ,bunchPeakMinThr,1,"(1,)",float32
+ , , ,bunchPeakOk,1,(),bool
+ , , ,bunchPeakStd,1,"(1,)",float32
+ , , ,bunchPeakStdOk,1,(),bool
+ , , ,bunchPeakStdThr,1,"(1,)",float32
+ , , ,bunchPeaks,288,"(288,)",float32
+ , , ,bunchPositions,288,"(288,)",float32
+ , , ,diagnostic,1,"(1,)",int16
+ , , ,doubletIntensitySplitOk,1,(),bool
+ , , ,doublets,1,(),bool
+ , , ,filledBuckets,288,"(288,)",int32
+ , , ,firstBunchPositionOk,1,(),bool
+ , , ,isTrailingDoublet,0,"(0,)",Custom Datatype
+ , , ,nAllowedLongBunches,1,"(1,)",int16
+ , , ,nBunches,1,"(1,)",int32
+ , , ,nBunchesMax,1,"(1,)",int16
+ , , ,nBunchesMaxOk,1,(),bool
+ , , ,nBunchesRamp,1,"(1,)",int32
+ , , ,nSatellitesIntensity,1,"(1,)",int32
+ , , ,nSatellitesMidBucket,1,"(1,)",int32
+ , , ,nTooLongBunches,1,"(1,)",int16
+ , , ,nWarningMessages,1,"(1,)",int16
+ , , ,oscillationPercentDeltaMax,1,"(1,)",float32
+ , , ,oscillationPercentDeltaMaxThr,1,"(1,)",float32
+ , , ,oscillationPercentDeltas,1,"(1,)",float32
+ , , ,oscillationPercentPeakMax,1,"(1,)",float32
+ , , ,oscillationPercentPeakMaxThr,1,"(1,)",float32
+ , , ,patternOk,1,(),bool
+ , , ,satelliteBucketsIntensity,4620,"(4620,)",float32
+ , , ,satelliteBucketsMid,4620,"(4620,)",float32
+ , , ,satellitesIntensityThr,1,"(1,)",float32
+ , , ,satellitesMidBucketThr,1,"(1,)",float32
+ , , ,satellitesOk,1,(),bool
+ , , ,stabilityOk,1,(),bool
+ , , ,tgmNLSQCTL,1,(),bool
+ , , ,tgmSCNUM,1,"(1,)",int32
+ , , ,verifyPattern,1,(),bool
+ , , ,warningMessages,50,"(50,)",|S48
+ , , ,wrongBuckets,288,"(288,)",int32
+ , ,RawWavesFTAcquisition, , , , 
+ , , ,rawWaveFT,80000,"(80000,)",int16
+ ,SR.AWGAMP, , , , , 
+ , ,Status, , , , 
+ , , ,position,1,"(1,)",int64
+ ,SR.AWGPH, , , , , 
+ , ,Status, , , , 
+ , , ,position,1,"(1,)",int64
+ ,SR.AWINTLK, , , , , 
+ , ,PhaseAcq, , , , 
+ , , ,phaseShifter,1,"(1,)",float32
+ ,SR.SCOPE27.CH01, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,320,"(1, 320)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE28.CH01, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,320,"(1, 320)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE29.CH01, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,320,"(1, 320)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE30.CH01, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,4000,"(1, 4000)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE30.CH02, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,4000,"(1, 4000)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE43.CH01, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE43.CH02, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE43.CH03, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE43.CH04, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE43.CH05, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE43.CH06, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,252,"(1, 252)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE43.CH07, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE43.CH08, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,252,"(1, 252)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE45.CH01, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE45.CH02, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE45.CH03, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,SR.SCOPE45.CH04, , , , , 
+ , ,Acquisition, , , , 
+ , , ,CTime,1,"(1,)",int32
+ , , ,cycleTag,1,"(1,)",int32
+ , , ,diffStamps,1,"(1,)",int64
+ , , ,firstSampleTime,1,"(1,)",float32
+ , , ,offset,1,"(1,)",float32
+ , , ,sampleInterval,1,"(1,)",float32
+ , , ,sensitivity,1,"(1,)",float32
+ , , ,triggerError,1,"(1,)",float32
+ , , ,triggerStamp,1,"(1,)",int64
+ , , ,value,352,"(1, 352)",int16
+ , , ,value_units,1,"(1,)",|S1
+ ,Sps2AwakeSynchro, , , , , 
+ , ,ProtonDelayNs, , , , 
+ , , ,delay,1,"(1,)",float64
+ ,TCC4.AWAKE-SCOPE-CTR.CH1, , , , , 
+ , ,FileRead, , , , 
+ , , ,channelRead,1,"(1,)",int32
+ , , ,dataAxis,5000,"(5000,)",float64
+ , , ,dataValue,5000,"(5000,)",float64
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S29
+ , , ,fileReadDelay,1,"(1,)",int64
+ , , ,fileTime,1,"(1,)",int64
+ , , ,headerName,100,"(100,)",|S17
+ , , ,headerValue,100,"(100,)",|S16
+ ,TCC4.AWAKE-SCOPE-CTR.CH2, , , , , 
+ , ,FileRead, , , , 
+ , , ,channelRead,1,"(1,)",int32
+ , , ,dataAxis,5000,"(5000,)",float64
+ , , ,dataValue,5000,"(5000,)",float64
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S29
+ , , ,fileReadDelay,1,"(1,)",int64
+ , , ,fileTime,1,"(1,)",int64
+ , , ,headerName,100,"(100,)",|S17
+ , , ,headerValue,100,"(100,)",|S16
+ ,TCC4.AWAKE-SCOPE-CTR.CH3, , , , , 
+ , , ,FileRead,1,(),|S166
+ ,TCC4.AWAKE-SCOPE-CTR.CH4, , , , , 
+ , ,FileRead, , , , 
+ , , ,channelRead,1,"(1,)",int32
+ , , ,dataAxis,2000,"(2000,)",float64
+ , , ,dataValue,2000,"(2000,)",float64
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S29
+ , , ,fileReadDelay,1,"(1,)",int64
+ , , ,fileTime,1,"(1,)",int64
+ , , ,headerName,100,"(100,)",|S17
+ , , ,headerValue,100,"(100,)",|S16
+ ,TSG40.AWAKE-LASER-CORRELATOR, , , , , 
+ , ,FileRead, , , , 
+ , , ,dataAcquisitionTime,1,"(1,)",int64
+ , , ,dataAmplitude,768,"(768,)",float64
+ , , ,dataDelay,768,"(768,)",float64
+ , , ,dataImage,442368,"(768, 576)",int16
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S17
+ , , ,fileTime,1,"(1,)",int64
+ , , ,fittedAmplitude,768,"(768,)",float64
+ , , ,pulseWidth,1,"(1,)",float64
+ ,TSG41.AWAKE-CTR-PHOTOMIXER, , , , , 
+ , ,NameAcquisition, , , , 
+ , , ,nameValue,100,"(100,)",|S45
+ , ,ValueAcquisition, , , , 
+ , , ,floatValue,100,"(100,)",float64
+ ,TSG41.AWAKE-CTR-WR4-WR8-MIXERS, , , , , 
+ , ,NameAcquisition, , , , 
+ , , ,nameValue,100,"(100,)",|S19
+ , ,ValueAcquisition, , , , 
+ , , ,floatValue,100,"(100,)",float64
+ ,TSG41.AWAKE-CTRHET-VDI, , , , , 
+ , ,FileRead, , , , 
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S42
+ , , ,fileReadDelay,1,"(1,)",int64
+ , , ,fileTime,1,"(1,)",int64
+ , , ,floatValue,1,"(1,)",float64
+ , , ,integerValue,1,"(1,)",int64
+ , , ,stringValue,1,"(1,)",|S4
+ ,TSG41.AWAKE-CTRHET-WR8, , , , , 
+ , , ,FileRead,1,(),|S166
+ ,TSG41.AWAKE-DENSITY-DATA, , , , , 
+ , ,NameAcquisition, , , , 
+ , , ,nameValue,100,"(100,)",|S18
+ , ,ValueAcquisition, , , , 
+ , , ,floatValue,100,"(100,)",float64
+ ,TSG41.AWAKE-GUI-SUPPORT, , , , , 
+ , ,NameAcquisition, , , , 
+ , , ,nameValue,100,"(100,)",|S20
+ , ,ValueAcquisition, , , , 
+ , , ,floatValue,100,"(100,)",float64
+ ,TSG41.AWAKE-LASER-DATA, , , , , 
+ , ,NameAcquisition, , , , 
+ , , ,nameValue,100,"(100,)",|S55
+ , ,ValueAcquisition, , , , 
+ , , ,floatValue,100,"(100,)",float64
+ ,TSG41.AWAKE-TWO-SCREEN-MEAS, , , , , 
+ , ,NameAcquisition, , , , 
+ , , ,nameValue,100,"(100,)",|S19
+ , ,ValueAcquisition, , , , 
+ , , ,floatValue,100,"(100,)",float64
+ ,TSG41.AWAKE-XMPP-FFTFREQ, , , , , 
+ , ,NameAcquisition, , , , 
+ , , ,nameValue,100,"(100,)",|S16
+ , ,ValueAcquisition, , , , 
+ , , ,floatValue,100,"(100,)",float64
+ ,TT41.AWAKE-PLASMA-SPECTRO-DOWN, , , , , 
+ , ,FileRead, , , , 
+ , , ,dataAcquisitionTime,1,"(1,)",int64
+ , , ,dataAxis,3648,"(3648,)",float64
+ , , ,dataValue,3648,"(3648,)",float64
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S44
+ , , ,fileReadDelay,1,"(1,)",int64
+ , , ,fileTime,1,"(1,)",int64
+ , , ,headerName,11,"(11,)",|S32
+ , , ,headerValue,11,"(11,)",|S28
+ , , ,nPixels,1,"(1,)",int32
+ ,TT41.AWAKE-PLASMA-SPECTRO-UP, , , , , 
+ , ,FileRead, , , , 
+ , , ,dataAcquisitionTime,1,"(1,)",int64
+ , , ,dataAxis,3648,"(3648,)",float64
+ , , ,dataValue,3648,"(3648,)",float64
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S43
+ , , ,fileReadDelay,1,"(1,)",int64
+ , , ,fileTime,1,"(1,)",int64
+ , , ,headerName,11,"(11,)",|S32
+ , , ,headerValue,11,"(11,)",|S28
+ , , ,nPixels,1,"(1,)",int32
+ ,TT41.AWAKE-eBLM-pico1, , , , , 
+ , ,FileRead, , , , 
+ , , ,FileTime,1,"(1,)",int64
+ , , ,dataAcquisitionTime,1,"(1,)",int64
+ , , ,dataAxis,785,"(785,)",float64
+ , , ,dataValue1,785,"(785,)",float64
+ , , ,dataValue2,785,"(785,)",float64
+ , , ,dataValue3,785,"(785,)",float64
+ , , ,dataValue4,785,"(785,)",float64
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S17
+ , , ,fileReadDelay,1,"(1,)",int64
+ , , ,headerName,100,"(100,)",|S1
+ , , ,headerValue,100,"(100,)",|S1
+ , , ,nPixels,1,"(1,)",int32
+ ,TT41.AWAKE-eBLM-pico2, , , , , 
+ , ,FileRead, , , , 
+ , , ,FileTime,1,"(1,)",int64
+ , , ,dataAcquisitionTime,1,"(1,)",int64
+ , , ,dataAxis,785,"(785,)",float64
+ , , ,dataValue1,785,"(785,)",float64
+ , , ,dataValue2,785,"(785,)",float64
+ , , ,dataValue3,785,"(785,)",float64
+ , , ,dataValue4,785,"(785,)",float64
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S17
+ , , ,fileReadDelay,1,"(1,)",int64
+ , , ,headerName,100,"(100,)",|S1
+ , , ,headerValue,100,"(100,)",|S1
+ , , ,nPixels,1,"(1,)",int32
+ ,TT41.AWAKE-eBLM-pico3, , , , , 
+ , ,FileRead, , , , 
+ , , ,FileTime,1,"(1,)",int64
+ , , ,dataAcquisitionTime,1,"(1,)",int64
+ , , ,dataAxis,785,"(785,)",float64
+ , , ,dataValue1,785,"(785,)",float64
+ , , ,dataValue2,785,"(785,)",float64
+ , , ,dataValue3,785,"(785,)",float64
+ , , ,dataValue4,785,"(785,)",float64
+ , , ,fileCount,1,"(1,)",int32
+ , , ,fileName,1,"(1,)",|S17
+ , , ,fileReadDelay,1,"(1,)",int64
+ , , ,headerName,100,"(100,)",|S1
+ , , ,headerValue,100,"(100,)",|S1
+ , , ,nPixels,1,"(1,)",int32
+ ,TT41.BCTF.412340, , , , , 
+ , ,Acquisition, , , , 
+ , , ,acqTime,1,"(1,)",|S26
+ , , ,beamDestinationStr,1,"(1,)",|S5
+ , , ,beamID,1,"(1,)",int32
+ , , ,calResultCh1,2,"(2,)",int32
+ , , ,calResultCh2,2,"(2,)",int32
+ , , ,calStatusCh1,1,"(1,)",int16
+ , , ,calStatusCh2,1,"(1,)",int16
+ , , ,calibrationFactorCh1,1,"(1,)",float32
+ , , ,calibrationFactorCh2,1,"(1,)",float32
+ , , ,calibratorIMeasuredCh1,1,"(1,)",float32
+ , , ,calibratorIMeasuredCh2,1,"(1,)",float32
+ , , ,calibratorVActual,1,"(1,)",float32
+ , , ,commonStatus,1,"(1,)",int16
+ , , ,cycleTime,1,"(1,)",|S26
+ , , ,descriptionCh1,1,"(1,)",|S1
+ , , ,descriptionCh2,1,"(1,)",|S1
+ , , ,inputOffsetCh1,1,"(1,)",int32
+ , , ,inputOffsetCh2,1,"(1,)",int32
+ , , ,measResultCh1,32,"(32,)",int32
+ , , ,measResultCh2,32,"(32,)",int32
+ , , ,measStatusCh1,1,"(1,)",int16
+ , , ,measStatusCh2,1,"(1,)",int16
+ , , ,nbOfMeas,1,"(1,)",int32
+ , , ,totalCurrentPreferred,1,"(1,)",float32
+ , , ,totalIntensityAutoCh1,1,"(1,)",float32
+ , , ,totalIntensityAutoCh2,1,"(1,)",float32
+ , , ,totalIntensityCalcCh1,1,"(1,)",float32
+ , , ,totalIntensityCalcCh2,1,"(1,)",float32
+ , , ,totalIntensityPreferred,1,"(1,)",float32
+ , , ,totalIntensity_unit,1,"(1,)",int32
+ , , ,totalIntensity_unitExponent,1,"(1,)",int32
+ ,TT41.BPM.412343, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,1,"(1,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT41.BPM.412345, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,1,"(1,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT41.BPM.412347, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,1,"(1,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT41.BPM.412349, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,1,"(1,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT41.BPM.412349_HF, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,0,"(0,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT41.BPM.412351, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,1,"(1,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT41.BPM.412351_HF, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,0,"(0,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT41.BTV.412350, , , , , 
+ , ,Acquisition, , , , 
+ , , ,acqCounter,1,"(1,)",int32
+ , , ,acqDesc,1,"(1,)",|S7
+ , , ,acqMsg,1,"(1,)",|S2
+ , , ,acqState,1,"(1,)",int32
+ , , ,acqTime,1,"(1,)",|S26
+ , , ,acqTimeInCycle,1,"(1,)",float64
+ , , ,amplitudeSet1,1,"(1,)",float64
+ , , ,amplitudeSet2,1,"(1,)",float64
+ , , ,beamID,1,"(1,)",int32
+ , , ,cameraOffset,1,"(1,)",int16
+ , , ,cameraOffset_max,1,"(1,)",int16
+ , , ,cameraOffset_min,1,"(1,)",int16
+ , , ,cameraSwitch,1,"(1,)",int32
+ , , ,cameraZoom,1,"(1,)",int32
+ , , ,cycleTime,1,"(1,)",|S26
+ , , ,descSet1,1,"(1,)",|S21
+ , , ,descSet2,1,"(1,)",|S19
+ , , ,deviceName,1,"(1,)",|S15
+ , , ,filterSelect,1,"(1,)",int32
+ , , ,filterSelectStr,4,"(4,)",|S9
+ , , ,filterSelect_max,1,"(1,)",int32
+ , , ,filterSelect_min,1,"(1,)",int32
+ , , ,firstLamp,1,"(1,)",int16
+ , , ,firstLamp_max,1,"(1,)",int16
+ , , ,firstLamp_min,1,"(1,)",int16
+ , , ,leftBottomReference,2,"(2,)",int16
+ , , ,leftTopReference,2,"(2,)",int16
+ , , ,mire,1,"(1,)",int32
+ , , ,nbAcq,1,"(1,)",int32
+ , , ,nbDataSets,1,"(1,)",int32
+ , , ,nbGates,1,"(1,)",int32
+ , , ,nbPtsPerProjInSet1,1,"(1,)",int32
+ , , ,nbPtsPerProjInSet2,1,"(1,)",int32
+ , , ,observables,1,"(1,)",int32
+ , , ,offsetCalSet1,4,"(4,)",float64
+ , , ,offsetCalSet2,4,"(4,)",float64
+ , , ,offsetSet1,1,"(1, 1)",float64
+ , , ,offsetSet2,1,"(1, 1)",float64
+ , , ,pixelCalSet1,4,"(4,)",float64
+ , , ,pixelCalSet2,4,"(4,)",float64
+ , , ,planeSet1,1,"(1,)",int32
+ , , ,planeSet2,1,"(1,)",int32
+ , , ,positionSet1,1,"(1,)",float64
+ , , ,positionSet2,1,"(1,)",float64
+ , , ,projDataSet1,400,"(1, 400)",float64
+ , , ,projDataSet2,300,"(1, 300)",float64
+ , , ,projPositionSet1,400,"(1, 400)",float64
+ , , ,projPositionSet2,300,"(1, 300)",float64
+ , , ,propType,1,"(1,)",int32
+ , , ,rightBottomReference,2,"(2,)",int16
+ , , ,rightTopReference,2,"(2,)",int16
+ , , ,saturationThreshold,1,"(1,)",int16
+ , , ,screenSelect,1,"(1,)",int32
+ , , ,screenSelectStr,4,"(4,)",|S10
+ , , ,screenSelect_max,1,"(1,)",int32
+ , , ,screenSelect_min,1,"(1,)",int32
+ , , ,secondLamp,1,"(1,)",int16
+ , , ,secondLamp_max,1,"(1,)",int16
+ , , ,secondLamp_min,1,"(1,)",int16
+ , , ,sigmaSet1,1,"(1,)",float64
+ , , ,sigmaSet2,1,"(1,)",float64
+ , , ,superCycleNb,1,"(1,)",int32
+ , , ,tgSet1,1,"(1, 1)",float64
+ , , ,tgSet2,1,"(1, 1)",float64
+ , , ,userImageSelection,1,"(1,)",Custom Datatype
+ , , ,userImageSelectionNumber,1,"(1,)",int16
+ , , ,videoGain,1,"(1,)",int32
+ , ,Image, , , , 
+ , , ,acqCounter,1,"(1,)",int32
+ , , ,acqDesc,1,"(1,)",|S7
+ , , ,acqMsg,1,"(1,)",|S2
+ , , ,acqState,1,"(1,)",int32
+ , , ,acqTime,1,"(1,)",|S26
+ , , ,acqTimeInCycle,1,"(1,)",float64
+ , , ,amplitudeSet1,1,"(1,)",float64
+ , , ,amplitudeSet2,1,"(1,)",float64
+ , , ,beamID,1,"(1,)",int32
+ , , ,cameraOffset,1,"(1,)",int16
+ , , ,cameraOffset_max,1,"(1,)",int16
+ , , ,cameraOffset_min,1,"(1,)",int16
+ , , ,cameraSwitch,1,"(1,)",int32
+ , , ,cameraZoom,1,"(1,)",int32
+ , , ,cycleTime,1,"(1,)",|S26
+ , , ,descSet1,1,"(1,)",|S21
+ , , ,descSet2,1,"(1,)",|S19
+ , , ,deviceName,1,"(1,)",|S15
+ , , ,filterSelect,1,"(1,)",int32
+ , , ,filterSelectStr,4,"(4,)",|S9
+ , , ,filterSelect_max,1,"(1,)",int32
+ , , ,filterSelect_min,1,"(1,)",int32
+ , , ,firstLamp,1,"(1,)",int16
+ , , ,firstLamp_max,1,"(1,)",int16
+ , , ,firstLamp_min,1,"(1,)",int16
+ , , ,imagePositionSet1,400,"(1, 400)",float64
+ , , ,imagePositionSet1_unit,1,"(1,)",|S2
+ , , ,imagePositionSet2,300,"(1, 300)",float64
+ , , ,imagePositionSet2_unit,1,"(1,)",|S2
+ , , ,imageSet,120000,"(1, 120000)",int16
+ , , ,leftBottomReference,2,"(2,)",int16
+ , , ,leftTopReference,2,"(2,)",int16
+ , , ,mire,1,"(1,)",int32
+ , , ,nbAcq,1,"(1,)",int32
+ , , ,nbDataSets,1,"(1,)",int32
+ , , ,nbImages,1,"(1,)",int32
+ , , ,nbPtsInSet1,1,"(1,)",int32
+ , , ,nbPtsInSet2,1,"(1,)",int32
+ , , ,observables,1,"(1,)",int32
+ , , ,offsetCalSet1,4,"(4,)",float64
+ , , ,offsetCalSet2,4,"(4,)",float64
+ , , ,pixelCalSet1,4,"(4,)",float64
+ , , ,pixelCalSet2,4,"(4,)",float64
+ , , ,planeSet1,1,"(1,)",int32
+ , , ,planeSet2,1,"(1,)",int32
+ , , ,positionSet1,1,"(1,)",float64
+ , , ,positionSet2,1,"(1,)",float64
+ , , ,propType,1,"(1,)",int32
+ , , ,rightBottomReference,2,"(2,)",int16
+ , , ,rightTopReference,2,"(2,)",int16
+ , , ,saturationThreshold,1,"(1,)",int16
+ , , ,screenSelect,1,"(1,)",int32
+ , , ,screenSelectStr,4,"(4,)",|S10
+ , , ,screenSelect_max,1,"(1,)",int32
+ , , ,screenSelect_min,1,"(1,)",int32
+ , , ,secondLamp,1,"(1,)",int16
+ , , ,secondLamp_max,1,"(1,)",int16
+ , , ,secondLamp_min,1,"(1,)",int16
+ , , ,sigmaSet1,1,"(1,)",float64
+ , , ,sigmaSet2,1,"(1,)",float64
+ , , ,superCycleNb,1,"(1,)",int32
+ , , ,userImageSelection,1,"(1,)",Custom Datatype
+ , , ,userImageSelectionNumber,1,"(1,)",int16
+ , , ,videoGain,1,"(1,)",int32
+ ,TT41.BTV.412350.STREAK, , , , , 
+ , , ,StreakImage,1,(),|S105
+ ,TT41.BTV.412353, , , , , 
+ , ,Acquisition, , , , 
+ , , ,acqCounter,1,"(1,)",int32
+ , , ,acqDesc,1,"(1,)",|S7
+ , , ,acqMsg,1,"(1,)",|S2
+ , , ,acqState,1,"(1,)",int32
+ , , ,acqTime,1,"(1,)",|S26
+ , , ,acqTimeInCycle,1,"(1,)",float64
+ , , ,amplitudeSet1,1,"(1,)",float64
+ , , ,amplitudeSet2,1,"(1,)",float64
+ , , ,beamID,1,"(1,)",int32
+ , , ,cameraOffset,1,"(1,)",int16
+ , , ,cameraOffset_max,1,"(1,)",int16
+ , , ,cameraOffset_min,1,"(1,)",int16
+ , , ,cameraSwitch,1,"(1,)",int32
+ , , ,cameraZoom,1,"(1,)",int32
+ , , ,cycleTime,1,"(1,)",|S26
+ , , ,descSet1,1,"(1,)",|S21
+ , , ,descSet2,1,"(1,)",|S19
+ , , ,deviceName,1,"(1,)",|S15
+ , , ,filterSelect,1,"(1,)",int32
+ , , ,filterSelectStr,4,"(4,)",|S9
+ , , ,filterSelect_max,1,"(1,)",int32
+ , , ,filterSelect_min,1,"(1,)",int32
+ , , ,firstLamp,1,"(1,)",int16
+ , , ,firstLamp_max,1,"(1,)",int16
+ , , ,firstLamp_min,1,"(1,)",int16
+ , , ,leftBottomReference,2,"(2,)",int16
+ , , ,leftTopReference,2,"(2,)",int16
+ , , ,mire,1,"(1,)",int32
+ , , ,nbAcq,1,"(1,)",int32
+ , , ,nbDataSets,1,"(1,)",int32
+ , , ,nbGates,1,"(1,)",int32
+ , , ,nbPtsPerProjInSet1,1,"(1,)",int32
+ , , ,nbPtsPerProjInSet2,1,"(1,)",int32
+ , , ,observables,1,"(1,)",int32
+ , , ,offsetCalSet1,4,"(4,)",float64
+ , , ,offsetCalSet2,4,"(4,)",float64
+ , , ,offsetSet1,1,"(1, 1)",float64
+ , , ,offsetSet2,1,"(1, 1)",float64
+ , , ,pixelCalSet1,4,"(4,)",float64
+ , , ,pixelCalSet2,4,"(4,)",float64
+ , , ,planeSet1,1,"(1,)",int32
+ , , ,planeSet2,1,"(1,)",int32
+ , , ,positionSet1,1,"(1,)",float64
+ , , ,positionSet2,1,"(1,)",float64
+ , , ,projDataSet1,400,"(1, 400)",float64
+ , , ,projDataSet2,300,"(1, 300)",float64
+ , , ,projPositionSet1,400,"(1, 400)",float64
+ , , ,projPositionSet2,300,"(1, 300)",float64
+ , , ,propType,1,"(1,)",int32
+ , , ,rightBottomReference,2,"(2,)",int16
+ , , ,rightTopReference,2,"(2,)",int16
+ , , ,saturationThreshold,1,"(1,)",int16
+ , , ,screenSelect,1,"(1,)",int32
+ , , ,screenSelectStr,4,"(4,)",|S10
+ , , ,screenSelect_max,1,"(1,)",int32
+ , , ,screenSelect_min,1,"(1,)",int32
+ , , ,secondLamp,1,"(1,)",int16
+ , , ,secondLamp_max,1,"(1,)",int16
+ , , ,secondLamp_min,1,"(1,)",int16
+ , , ,sigmaSet1,1,"(1,)",float64
+ , , ,sigmaSet2,1,"(1,)",float64
+ , , ,superCycleNb,1,"(1,)",int32
+ , , ,tgSet1,1,"(1, 1)",float64
+ , , ,tgSet2,1,"(1, 1)",float64
+ , , ,userImageSelection,1,"(1,)",Custom Datatype
+ , , ,userImageSelectionNumber,1,"(1,)",int16
+ , , ,videoGain,1,"(1,)",int32
+ , ,Image, , , , 
+ , , ,acqCounter,1,"(1,)",int32
+ , , ,acqDesc,1,"(1,)",|S7
+ , , ,acqMsg,1,"(1,)",|S2
+ , , ,acqState,1,"(1,)",int32
+ , , ,acqTime,1,"(1,)",|S26
+ , , ,acqTimeInCycle,1,"(1,)",float64
+ , , ,amplitudeSet1,1,"(1,)",float64
+ , , ,amplitudeSet2,1,"(1,)",float64
+ , , ,beamID,1,"(1,)",int32
+ , , ,cameraOffset,1,"(1,)",int16
+ , , ,cameraOffset_max,1,"(1,)",int16
+ , , ,cameraOffset_min,1,"(1,)",int16
+ , , ,cameraSwitch,1,"(1,)",int32
+ , , ,cameraZoom,1,"(1,)",int32
+ , , ,cycleTime,1,"(1,)",|S26
+ , , ,descSet1,1,"(1,)",|S21
+ , , ,descSet2,1,"(1,)",|S19
+ , , ,deviceName,1,"(1,)",|S15
+ , , ,filterSelect,1,"(1,)",int32
+ , , ,filterSelectStr,4,"(4,)",|S9
+ , , ,filterSelect_max,1,"(1,)",int32
+ , , ,filterSelect_min,1,"(1,)",int32
+ , , ,firstLamp,1,"(1,)",int16
+ , , ,firstLamp_max,1,"(1,)",int16
+ , , ,firstLamp_min,1,"(1,)",int16
+ , , ,imagePositionSet1,400,"(1, 400)",float64
+ , , ,imagePositionSet1_unit,1,"(1,)",|S2
+ , , ,imagePositionSet2,300,"(1, 300)",float64
+ , , ,imagePositionSet2_unit,1,"(1,)",|S2
+ , , ,imageSet,120000,"(1, 120000)",int16
+ , , ,leftBottomReference,2,"(2,)",int16
+ , , ,leftTopReference,2,"(2,)",int16
+ , , ,mire,1,"(1,)",int32
+ , , ,nbAcq,1,"(1,)",int32
+ , , ,nbDataSets,1,"(1,)",int32
+ , , ,nbImages,1,"(1,)",int32
+ , , ,nbPtsInSet1,1,"(1,)",int32
+ , , ,nbPtsInSet2,1,"(1,)",int32
+ , , ,observables,1,"(1,)",int32
+ , , ,offsetCalSet1,4,"(4,)",float64
+ , , ,offsetCalSet2,4,"(4,)",float64
+ , , ,pixelCalSet1,4,"(4,)",float64
+ , , ,pixelCalSet2,4,"(4,)",float64
+ , , ,planeSet1,1,"(1,)",int32
+ , , ,planeSet2,1,"(1,)",int32
+ , , ,positionSet1,1,"(1,)",float64
+ , , ,positionSet2,1,"(1,)",float64
+ , , ,propType,1,"(1,)",int32
+ , , ,rightBottomReference,2,"(2,)",int16
+ , , ,rightTopReference,2,"(2,)",int16
+ , , ,saturationThreshold,1,"(1,)",int16
+ , , ,screenSelect,1,"(1,)",int32
+ , , ,screenSelectStr,4,"(4,)",|S10
+ , , ,screenSelect_max,1,"(1,)",int32
+ , , ,screenSelect_min,1,"(1,)",int32
+ , , ,secondLamp,1,"(1,)",int16
+ , , ,secondLamp_max,1,"(1,)",int16
+ , , ,secondLamp_min,1,"(1,)",int16
+ , , ,sigmaSet1,1,"(1,)",float64
+ , , ,sigmaSet2,1,"(1,)",float64
+ , , ,superCycleNb,1,"(1,)",int32
+ , , ,userImageSelection,1,"(1,)",Custom Datatype
+ , , ,userImageSelectionNumber,1,"(1,)",int16
+ , , ,videoGain,1,"(1,)",int32
+ ,TT41.BTV.412426, , , , , 
+ , ,Acquisition, , , , 
+ , , ,acqCounter,1,"(1,)",int32
+ , , ,acqDesc,1,"(1,)",|S7
+ , , ,acqMsg,1,"(1,)",|S2
+ , , ,acqState,1,"(1,)",int32
+ , , ,acqTime,1,"(1,)",|S26
+ , , ,acqTimeInCycle,1,"(1,)",float64
+ , , ,amplitudeSet1,1,"(1,)",float64
+ , , ,amplitudeSet2,1,"(1,)",float64
+ , , ,beamID,1,"(1,)",int32
+ , , ,cameraOffset,1,"(1,)",int16
+ , , ,cameraOffset_max,1,"(1,)",int16
+ , , ,cameraOffset_min,1,"(1,)",int16
+ , , ,cameraSwitch,1,"(1,)",int32
+ , , ,cameraZoom,1,"(1,)",int32
+ , , ,cycleTime,1,"(1,)",|S26
+ , , ,descSet1,1,"(1,)",|S21
+ , , ,descSet2,1,"(1,)",|S19
+ , , ,deviceName,1,"(1,)",|S15
+ , , ,filterSelect,1,"(1,)",int32
+ , , ,filterSelectStr,4,"(4,)",|S9
+ , , ,filterSelect_max,1,"(1,)",int32
+ , , ,filterSelect_min,1,"(1,)",int32
+ , , ,firstLamp,1,"(1,)",int16
+ , , ,firstLamp_max,1,"(1,)",int16
+ , , ,firstLamp_min,1,"(1,)",int16
+ , , ,leftBottomReference,2,"(2,)",int16
+ , , ,leftTopReference,2,"(2,)",int16
+ , , ,mire,1,"(1,)",int32
+ , , ,nbAcq,1,"(1,)",int32
+ , , ,nbDataSets,1,"(1,)",int32
+ , , ,nbGates,1,"(1,)",int32
+ , , ,nbPtsPerProjInSet1,1,"(1,)",int32
+ , , ,nbPtsPerProjInSet2,1,"(1,)",int32
+ , , ,observables,1,"(1,)",int32
+ , , ,offsetCalSet1,4,"(4,)",float64
+ , , ,offsetCalSet2,4,"(4,)",float64
+ , , ,offsetSet1,1,"(1, 1)",float64
+ , , ,offsetSet2,1,"(1, 1)",float64
+ , , ,pixelCalSet1,4,"(4,)",float64
+ , , ,pixelCalSet2,4,"(4,)",float64
+ , , ,planeSet1,1,"(1,)",int32
+ , , ,planeSet2,1,"(1,)",int32
+ , , ,positionSet1,1,"(1,)",float64
+ , , ,positionSet2,1,"(1,)",float64
+ , , ,projDataSet1,400,"(1, 400)",float64
+ , , ,projDataSet2,300,"(1, 300)",float64
+ , , ,projPositionSet1,400,"(1, 400)",float64
+ , , ,projPositionSet2,300,"(1, 300)",float64
+ , , ,propType,1,"(1,)",int32
+ , , ,rightBottomReference,2,"(2,)",int16
+ , , ,rightTopReference,2,"(2,)",int16
+ , , ,saturationThreshold,1,"(1,)",int16
+ , , ,screenSelect,1,"(1,)",int32
+ , , ,screenSelectStr,4,"(4,)",|S10
+ , , ,screenSelect_max,1,"(1,)",int32
+ , , ,screenSelect_min,1,"(1,)",int32
+ , , ,secondLamp,1,"(1,)",int16
+ , , ,secondLamp_max,1,"(1,)",int16
+ , , ,secondLamp_min,1,"(1,)",int16
+ , , ,sigmaSet1,1,"(1,)",float64
+ , , ,sigmaSet2,1,"(1,)",float64
+ , , ,superCycleNb,1,"(1,)",int32
+ , , ,tgSet1,1,"(1, 1)",float64
+ , , ,tgSet2,1,"(1, 1)",float64
+ , , ,userImageSelection,1,"(1,)",Custom Datatype
+ , , ,userImageSelectionNumber,1,"(1,)",int16
+ , , ,videoGain,1,"(1,)",int32
+ , ,Image, , , , 
+ , , ,acqCounter,1,"(1,)",int32
+ , , ,acqDesc,1,"(1,)",|S7
+ , , ,acqMsg,1,"(1,)",|S2
+ , , ,acqState,1,"(1,)",int32
+ , , ,acqTime,1,"(1,)",|S26
+ , , ,acqTimeInCycle,1,"(1,)",float64
+ , , ,amplitudeSet1,1,"(1,)",float64
+ , , ,amplitudeSet2,1,"(1,)",float64
+ , , ,beamID,1,"(1,)",int32
+ , , ,cameraOffset,1,"(1,)",int16
+ , , ,cameraOffset_max,1,"(1,)",int16
+ , , ,cameraOffset_min,1,"(1,)",int16
+ , , ,cameraSwitch,1,"(1,)",int32
+ , , ,cameraZoom,1,"(1,)",int32
+ , , ,cycleTime,1,"(1,)",|S26
+ , , ,descSet1,1,"(1,)",|S21
+ , , ,descSet2,1,"(1,)",|S19
+ , , ,deviceName,1,"(1,)",|S15
+ , , ,filterSelect,1,"(1,)",int32
+ , , ,filterSelectStr,4,"(4,)",|S9
+ , , ,filterSelect_max,1,"(1,)",int32
+ , , ,filterSelect_min,1,"(1,)",int32
+ , , ,firstLamp,1,"(1,)",int16
+ , , ,firstLamp_max,1,"(1,)",int16
+ , , ,firstLamp_min,1,"(1,)",int16
+ , , ,imagePositionSet1,400,"(1, 400)",float64
+ , , ,imagePositionSet1_unit,1,"(1,)",|S2
+ , , ,imagePositionSet2,300,"(1, 300)",float64
+ , , ,imagePositionSet2_unit,1,"(1,)",|S2
+ , , ,imageSet,120000,"(1, 120000)",int16
+ , , ,leftBottomReference,2,"(2,)",int16
+ , , ,leftTopReference,2,"(2,)",int16
+ , , ,mire,1,"(1,)",int32
+ , , ,nbAcq,1,"(1,)",int32
+ , , ,nbDataSets,1,"(1,)",int32
+ , , ,nbImages,1,"(1,)",int32
+ , , ,nbPtsInSet1,1,"(1,)",int32
+ , , ,nbPtsInSet2,1,"(1,)",int32
+ , , ,observables,1,"(1,)",int32
+ , , ,offsetCalSet1,4,"(4,)",float64
+ , , ,offsetCalSet2,4,"(4,)",float64
+ , , ,pixelCalSet1,4,"(4,)",float64
+ , , ,pixelCalSet2,4,"(4,)",float64
+ , , ,planeSet1,1,"(1,)",int32
+ , , ,planeSet2,1,"(1,)",int32
+ , , ,positionSet1,1,"(1,)",float64
+ , , ,positionSet2,1,"(1,)",float64
+ , , ,propType,1,"(1,)",int32
+ , , ,rightBottomReference,2,"(2,)",int16
+ , , ,rightTopReference,2,"(2,)",int16
+ , , ,saturationThreshold,1,"(1,)",int16
+ , , ,screenSelect,1,"(1,)",int32
+ , , ,screenSelectStr,4,"(4,)",|S10
+ , , ,screenSelect_max,1,"(1,)",int32
+ , , ,screenSelect_min,1,"(1,)",int32
+ , , ,secondLamp,1,"(1,)",int16
+ , , ,secondLamp_max,1,"(1,)",int16
+ , , ,secondLamp_min,1,"(1,)",int16
+ , , ,sigmaSet1,1,"(1,)",float64
+ , , ,sigmaSet2,1,"(1,)",float64
+ , , ,superCycleNb,1,"(1,)",int32
+ , , ,userImageSelection,1,"(1,)",Custom Datatype
+ , , ,userImageSelectionNumber,1,"(1,)",int16
+ , , ,videoGain,1,"(1,)",int32
+ ,TT41.BTV.412442, , , , , 
+ , , ,Acquisition,1,(),|S98
+ , , ,Image,1,(),|S92
+ ,TT43.BPM.430010, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,0,"(0,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT43.BPM.430028, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,0,"(0,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT43.BPM.430039, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,0,"(0,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT43.BPM.430103, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,0,"(0,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT43.BPM.430129, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,0,"(0,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT43.BPM.430203, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,0,"(0,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,TT43.BPM.430308, , , , , 
+ , ,Acquisition, , , , 
+ , , ,horAvePos,1,"(1,)",float32
+ , , ,horPos,12,"(12,)",float32
+ , , ,posOK,0,"(0,)",Custom Datatype
+ , , ,sigma,12,"(12,)",int32
+ , , ,sigmaAvePos,1,"(1,)",float32
+ , , ,spsExtraction,1,(),bool
+ , , ,spsExtractionIndex,1,"(1,)",int32
+ , , ,verAvePos,1,"(1,)",float32
+ , , ,verPos,12,"(12,)",float32
+ ,VGP.412400, , , , , 
+ , ,PR, , , , 
+ , , ,value,1,"(1,)",float32
+ ,VGP.412423, , , , , 
+ , ,PR, , , , 
+ , , ,value,1,"(1,)",float32
+ ,VTUAwake2Fc, , , , , 
+ , ,ModeAcq, , , , 
+ , , ,pdcOutDelay,1,"(1,)",int16
+ , ,NormalModeAcq, , , , 
+ , , ,b_offline,1,"(1,)",int64
+ ,VTUAwake2Frep, , , , , 
+ , ,ModeAcq, , , , 
+ , , ,pdcOutDelay,1,"(1,)",int16
+ , ,NormalModeAcq, , , , 
+ , , ,b_offline,1,"(1,)",int64
+ ,VTUAwake3FT0, , , , , 
+ , ,ModeAcq, , , , 
+ , , ,pdcOutDelay,1,"(1,)",int16
+ , ,NormalModeAcq, , , , 
+ , , ,b_offline,1,"(1,)",int64
+ ,VTUAwake3FT1, , , , , 
+ , ,ModeAcq, , , , 
+ , , ,pdcOutDelay,1,"(1,)",int16
+ , ,NormalModeAcq, , , , 
+ , , ,b_offline,1,"(1,)",int64
+ ,VVGF.412400, , , , , 
+ , ,StartCounterSt, , , , 
+ , , ,value,1,"(1,)",int32
+ , ,State, , , , 
+ , , ,value,1,"(1,)",int16
+ ,VVGF.412423, , , , , 
+ , ,StartCounterSt, , , , 
+ , , ,value,1,"(1,)",int32
+ , ,State, , , , 
+ , , ,value,1,"(1,)",int16
+ ,XMPP-STREAK, , , , , 
+ , ,StreakImage, , , , 
+ , , ,streakImageBinning,1,"(1,)",|S5
+ , , ,streakImageData,344064,"(344064,)",int32
+ , , ,streakImageExposureTime,1,"(1,)",|S5
+ , , ,streakImageHeight,1,"(1,)",int64
+ , , ,streakImageInfo,1,"(1,)",|S2768
+ , , ,streakImageMcpGain,1,"(1,)",int64
+ , , ,streakImageMode,1,"(1,)",|S7
+ , , ,streakImageProjection,512,"(512,)",float32
+ , , ,streakImageTime,1,"(1,)",|S12
+ , , ,streakImageTimeRange,1,"(1,)",|S4
+ , , ,streakImageTimeValues,512,"(512,)",float64
+ , , ,streakImageTrigLevel,1,"(1,)",float32
+ , , ,streakImageWidth,1,"(1,)",int64
+ ,XUCL-SPECTRO, , , , , 
+ , ,BinningSetting, , , , 
+ , , ,hbin,1,"(1,)",int32
+ , , ,hend,1,"(1,)",int32
+ , , ,hstart,1,"(1,)",int32
+ , , ,readMode,1,"(1,)",int32
+ , , ,vbin,1,"(1,)",int32
+ , , ,vend,1,"(1,)",int32
+ , , ,vstart,1,"(1,)",int32
+ , , ,CameraAcq,1,(),|S93
+CameraSettings, , , , , , 
+ , , ,ddgGateDelay,1,"(1,)",int64
+ , , ,ddgGateDelay_max,1,"(1,)",int64
+ , , ,ddgGateDelay_min,1,"(1,)",int64
+ , , ,ddgGateWidth,1,"(1,)",int64
+ , , ,ddgGateWidth_max,1,"(1,)",int64
+ , , ,ddgGateWidth_min,1,"(1,)",int64
+ , , ,enableDDGIntelligate,1,(),bool
+ , , ,enableFan,1,(),bool
+ , , ,enableFastTrigger,1,(),bool
+ , , ,exposureTime,1,"(1,)",float32
+ , , ,mcpGain,1,"(1,)",int32
+ , , ,mcpGain_max,1,"(1,)",int32
+ , , ,mcpGain_min,1,"(1,)",int32
+ , , ,preampGainIndex,1,"(1,)",int32
+ , , ,preampGainIndex_max,1,"(1,)",int32
+ , , ,preampGainIndex_min,1,"(1,)",int32
+ , , ,targetShutDownTemperature,1,"(1,)",int32
+ , , ,targetShutDownTemperature_max,1,"(1,)",int32
+ , , ,targetShutDownTemperature_min,1,"(1,)",int32
+ , , ,targetTemperature,1,"(1,)",int32
+ , , ,targetTemperature_max,1,"(1,)",int32
+ , , ,targetTemperature_min,1,"(1,)",int32
+ , , ,triggerEdge,1,"(1,)",int32
+ , , ,triggerTermination,1,(),bool
+ , , ,triggerThreshold,1,"(1,)",float32
+ , , ,CameraSettingsStatus,1,(),|S104
+ , , ,ImageAcq,1,(),|S92
+ ,awake.XAWAVS_BEAML_TT_AVG, , , , , 
+ , ,PosSt, , , , 
+ , , ,value,1,"(1,)",float64
+ ,awake.XAWAVS_DE_TT_AVG, , , , , 
+ , ,PosSt, , , , 
+ , , ,value,1,"(1,)",float64
+ ,awake.XAWAVS_DF_TT_AVG, , , , , 
+ , ,PosSt, , , , 
+ , , ,value,1,"(1,)",float64
+ ,awake.XAWAVS_DJ_PV236, , , , , 
+ , ,StsReg01, , , , 
+ , , ,value,1,"(1,)",int32
+ ,awake.XAWAVS_UE_TT_AVG, , , , , 
+ , ,PosSt, , , , 
+ , , ,value,1,"(1,)",float64
+ ,awake.XAWAVS_UF_TT_AVG, , , , , 
+ , ,PosSt, , , , 
+ , , ,value,1,"(1,)",float64
+ ,awake.XAWAVS_UJ_PV136, , , , , 
+ , ,StsReg01, , , , 
+ , , ,value,1,"(1,)",int32
+ ,awake.XAWAVS_VX_TT_AVG, , , , , 
+ , ,PosSt, , , , 
+ , , ,value,1,"(1,)",float64
+AwakeEventInfo, , , , , , 
+ , , ,configurationVersionNumber,1,(),int32
+ , , ,eventNumber,1,(),int32
+ , , ,runNumber,1,(),int32
+ , , ,timestamp,1,(),int64
+__DATA_TYPES__, , , , , , 
+ ,Enum_Boolean, , , , , 
+ ,String_VariableLength, , , , , 
